@@ -98,9 +98,15 @@ h1.name {
   width: 100%;
 }
 .workdetails {
+  border-radius: 4px;
+  background-color: rgb(23, 42, 69);
+  position: relative;
   float: left;
   width: 40%;
+  padding: 10px 0;
   padding-left: 17px;
+  left: -40px;
+  margin-top: 15px;
 }
 p.count {
   color: #64ffda;
@@ -135,12 +141,12 @@ i.fa.fa-github {
   color: white;
 }
 
-.link {
-  color: #e6f1ff;
+.link a {
+  color: #64ffda;
 }
 
 i.fa.fa-external-link {
-  color: #e6f1ff;
+  color: #64ffda;
 }
 
 .link a {
