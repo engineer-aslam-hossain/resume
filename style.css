@@ -9,7 +9,7 @@ body {
   font-size: 20px;
 }
 .container {
-  margin: 30px 80px 30px 110px;
+  margin: 30px 80px 30px 130px;
 }
 a {
   display: block;
@@ -24,8 +24,19 @@ a {
   display: inline-block;
   padding-bottom: 40px;
 }
+.row.col-md-6 {
+  display: inline-block;
+}
+.mypic img {
+  border-radius: 31px;
+  margin-top: 73px;
+}
+.mypic {
+  margin-inline-start: 50px;
+}
 .aboutinfo {
   width: 50%;
+  padding-top: 40px;
   float: left;
 }
 p.intro {
@@ -64,8 +75,78 @@ button.contactbutton {
   border-radius: 5px;
   border: 1px solid #28a745;
 }
+button.resume {
+  color: #28a745;
+  background-color: #0a192f;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+}
 h1.name {
   color: #e6f1ff;
+}
+.workcard {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.cardimg {
+  float: left;
+  width: 57%;
+}
+.cardimg img {
+  width: 100%;
+}
+.workdetails {
+  float: left;
+  width: 40%;
+  padding-left: 17px;
+}
+p.count {
+  color: #64ffda;
+  margin: 0;
+}
+h3.cardtitle {
+  font-size: 28px;
+  color: #e6f1ff;
+  font-weight: 600;
+  margin: 0;
+}
+p.carddetails {
+  text-align: justify;
+  color: #e6f1ff;
+}
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span.tools {
+  background: #4b5769;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 13px;
+  height: 20px;
+  color: #e6f1ff;
+}
+i.fa.fa-github {
+  color: white;
+}
+
+.link {
+  color: #e6f1ff;
+}
+
+i.fa.fa-external-link {
+  color: #e6f1ff;
+}
+
+.link a {
+  float: left;
+  margin: 15px 5px;
+  font-size: 20px;
 }
 ul.sidebarul {
   padding-inline-start: 17px;
@@ -81,7 +162,150 @@ ul.sidebarul li a {
   padding: 10px;
   margin: none;
 }
+span.sectitlespan {
+  color: #64ffda;
+  font-size: 35px;
+  font-weight: 400;
+}
 
+h1.sectionhead {
+  color: #e6f1ff;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.sectiontitle {
+  width: 40%;
+  float: left;
+}
+span.articlespan {
+  color: #64ffda;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h1.articletitlehead {
+  color: #e6f1ff;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.workbuttonclass {
+  float: left;
+  padding-inline-start: 40px;
+  margin: 35px 0 47px 0;
+}
+hr.line {
+  border-top: 0;
+  width: 185px;
+  float: left;
+  margin-top: 20px;
+}
+
+button.workbutton {
+  color: #28a745;
+  background-color: #0a192f;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  margin: 0 0 5px 3px;
+}
+
+.articletitle {
+  width: 45%;
+  float: left;
+}
+.articlebuttonclass {
+  float: left;
+  padding-inline-start: 40px;
+  margin: 35px 0 47px 0;
+}
+
+button.articlebutton {
+  color: #28a745;
+  background-color: #0a192f;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  margin: 0 0 5px 3px;
+}
+.articlecard {
+  background-color: rgb(23, 42, 69);
+  color: #e6f1ff;
+  float: left;
+  margin: 0px 18px;
+  width: 28%;
+}
+
+section.article {
+  display: inline-block;
+}
+
+.articlecardimg img {
+  height: 160px;
+  width: 100%;
+}
+h2.articlehead {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p.articledetails {
+  padding: 0 15px;
+  font-size: 12px;
+}
+.getintouch {
+  margin: 85px;
+  display: inline-block;
+  text-align: center;
+}
+
+p.whatsnext {
+  color: #64ffda;
+  font-weight: 400;
+}
+
+h1.getintouchhead {
+  color: #e6f1ff;
+  margin: 0px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+p.text {
+  padding: 0 100px;
+  color: #e6f1ff;
+  opacity: 95%;
+}
+button.getintouch {
+  color: #28a745;
+  background-color: #0a192f;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  margin: 40px 0;
+}
+.footer {
+  display: block;
+  text-align: center;
+}
+
+p.design a {
+  color: #64ffda;
+  display: inline-block;
+  padding-left: 6px;
+}
+
+p.design {
+  color: #e6f1ff;
+  opacity: 95%;
+}
+
+p.copyright {
+  opacity: 50%;
+  color: #e6f1ff;
+}
 nav {
   margin-right: 10px;
   /* padding: 10px 0; */

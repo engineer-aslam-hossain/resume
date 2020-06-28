@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,17 +24,32 @@
           <li><a href="/work">Work</a></li>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/contact">Contact</a></li>
+          <li>
+            <a href="#">
+              <button type="button" class="resume">Resume</button>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="sidebar">
         <ul class="sidebarul">
-          <li class="floatlink"><a href="#">GitHub</a></li>
-          <li class="floatlink"><a href="#">Medium</a></li>
-          <li class="floatlink"><a href="#">LinkdIn</a></li>
-          <li class="floatlink"><a href="#">CodePen</a></li>
-          <li class="floatlink"><a href="#">Facebook</a></li>
+          <li class="floatlink">
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i> </a>
+          </li>
+          <li class="floatlink">
+            <a href="#"><i class="fa fa-medium" aria-hidden="true"></i> </a>
+          </li>
+          <li class="floatlink">
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+          </li>
+          <li class="floatlink">
+            <a href="#"><i class="fa fa-codepen" aria-hidden="true"></i> </a>
+          </li>
+          <li class="floatlink">
+            <a href="#"><a href="#" class="fa fa-facebook"></a> </a>
+          </li>
         </ul>
       </div>
       <div class="container">
@@ -51,35 +69,39 @@
             </p>
             <div class="buttonaboutcontact">
               <a href="/about"
-                ><button class="buttonaboutme">About Me</button>
+                ><button type="button" class="buttonaboutme">About Me</button>
               </a>
               <a href="/contact"
-                ><button class="contactbutton">Get In Touch</button>
+                ><button type="button" class="contactbutton">
+                  Get In Touch
+                </button>
               </a>
             </div>
           </div>
           <div class="row col-md-6">
             <div class="mypic">
-              <img src="images/diu.jpg" height="250px" />
+              <img src="images/diu.jpg" height="300px" />
             </div>
           </div>
-        
         </div>
-        
+
         <section>
           <div class="sectiontitle">
             <h1 class="sectionhead">
               <span class="sectitlespan"> Some of </span> my work
             </h1>
-            <button type="submit">All Works</button>
+          </div>
+          <div class="workbuttonclass">
+            <hr class="line" width="30%" />
+            <button type="submit" class="workbutton">All Works</button>
           </div>
           <div class="workcard">
             <div class="cardimg">
-              <img src="images/1.png" width="60%" />
+              <img src="images/1.png" />
             </div>
             <div class="workdetails">
               <p class="count">01</p>
-              <h3 class="cardtitle">ExamHelpBd</h3>
+              <h3 class="cardtitle">Exam Help Bd</h3>
               <p class="carddetails">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, quibusdam quam, excepturi alias cupiditate illo
@@ -87,14 +109,18 @@
               </p>
               <div class="technology">
                 <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
+                <span class="tools">Javascript</span>
+                <span class="tools">Reactjs</span>
+                <span class="tools">Nodejs</span>
+                <span class="tools">MongoDB</span>
+                <span class="tools">Firebase</span>
+                <span class="tools">Bootstrap4</span>
               </div>
               <div class="link">
-                <a href="#">GitHub</a>
-                <a href="#">Website</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -103,8 +129,8 @@
               <img src="images/2.png" width="60%" />
             </div>
             <div class="workdetails">
-              <p class="count">01</p>
-              <h3 class="cardtitle">ExamHelpBd</h3>
+              <p class="count">02</p>
+              <h3 class="cardtitle">Doctor's Portal</h3>
               <p class="carddetails">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, quibusdam quam, excepturi alias cupiditate illo
@@ -112,14 +138,18 @@
               </p>
               <div class="technology">
                 <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
+                <span class="tools">Javascript</span>
+                <span class="tools">Reactjs</span>
+                <span class="tools">Nodejs</span>
+                <span class="tools">MongoDB</span>
+                <span class="tools">Firebase</span>
+                <span class="tools">Bootstrap4</span>
               </div>
               <div class="link">
-                <a href="#">GitHub</a>
-                <a href="#">Website</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -128,8 +158,8 @@
               <img src="images/3.png" width="60%" />
             </div>
             <div class="workdetails">
-              <p class="count">01</p>
-              <h3 class="cardtitle">ExamHelpBd</h3>
+              <p class="count">03</p>
+              <h3 class="cardtitle">Red Onion Foods</h3>
               <p class="carddetails">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, quibusdam quam, excepturi alias cupiditate illo
@@ -137,14 +167,18 @@
               </p>
               <div class="technology">
                 <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
-                <span class="tools">PHP</span>
+                <span class="tools">Javascript</span>
+                <span class="tools">Reactjs</span>
+                <span class="tools">Nodejs</span>
+                <span class="tools">MongoDB</span>
+                <span class="tools">Firebase</span>
+                <span class="tools">Bootstrap4</span>
               </div>
               <div class="link">
-                <a href="#">GitHub</a>
-                <a href="#">Website</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -155,12 +189,16 @@
               <span class="articlespan">Some of</span> My Article
             </h1>
           </div>
+          <div class="articlebuttonclass">
+            <hr class="line" width="30%" />
+            <button type="submit" class="articlebutton">All Article</button>
+          </div>
           <div class="articlecard">
             <div class="articlecardimg">
               <img src="images/4.png" width="30%" />
             </div>
             <div class="articlebody">
-              <h2 class="articletitle">
+              <h2 class="articlehead">
                 Simple introduction to React.js
               </h2>
               <p class="articledetails">
@@ -168,49 +206,55 @@
                 Voluptates, vero. Veritatis itaque ab voluptates placeat.
               </p>
             </div>
-            <div class="articlecard">
-              <div class="articlecardimg">
-                <img src="images/5.png" width="30%" />
-              </div>
-              <div class="articlebody">
-                <h2 class="articletitle">
-                  Simple introduction to React.js
-                </h2>
-                <p class="articledetails">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptates, vero. Veritatis itaque ab voluptates placeat.
-                </p>
-              </div>
-              <div class="articlecard">
-                <div class="articlecardimg">
-                  <img src="images/6.jpeg" width="30%" />
-                </div>
-                <div class="articlebody">
-                  <h2 class="articletitle">
-                    Simple introduction to React.js
-                  </h2>
-                  <p class="articledetails">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptates, vero. Veritatis itaque ab voluptates placeat.
-                  </p>
-                </div>
+          </div>
+          <div class="articlecard">
+            <div class="articlecardimg">
+              <img src="images/5.png" width="30%" />
+            </div>
+            <div class="articlebody">
+              <h2 class="articlehead">
+                Getting started with React Router
+              </h2>
+              <p class="articledetails">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, vero. Veritatis itaque ab voluptates placeat.
+              </p>
+            </div>
+          </div>
+          <div class="articlecard">
+            <div class="articlecardimg">
+              <img src="images/6.jpeg" width="30%" />
+            </div>
+            <div class="articlebody">
+              <h2 class="articlehead">
+                A Re-introduction to Javascript
+              </h2>
+              <p class="articledetails">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, vero. Veritatis itaque ab voluptates placeat.
+              </p>
+            </div>
           </div>
         </section>
         <div class="getintouch">
-          <p class="whatsnext">What's next ? </p>
-          <h1 class=getintouchhead>
+          <p class="whatsnext">What's next ?</p>
+          <h1 class="getintouchhead">
             Get In Touch
           </h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem hic fuga libero quam, possimus aut, nesciunt nemo cum aliquid molestiae suscipit, quas sapiente tempore quibusdam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem hic fuga libero quam, possimus aut, nesciunt nemo cum
+            aliquid molestiae suscipit, quas sapiente tempore quibusdam!
           </p>
-          <a href="/contact" >
-            <button type="submit" >Say Hello</button>
+          <a href="/contact">
+            <button class="getintouch" type="submit">Say Hello</button>
           </a>
         </div>
         <div class="footer">
-          <p class="design">Design,Built & Develop By <a href="#">Aslam Hossain</a> </p>
-          <p class="copyright"> &copy 2020 Aslam Hossain </p>
+          <p class="design">
+            Design,Built & Develop By <a href="#">Aslam Hossain</a>
+          </p>
+          <p class="copyright">&copy 2020 Aslam Hossain</p>
         </div>
       </div>
     </main>
