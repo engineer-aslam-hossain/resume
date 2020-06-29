@@ -78,6 +78,12 @@ a {
   display: block;
   position: fixed;
 }
+.sidebar a i:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  color: #64ffda;
+}
+
 .row.col-md-12 {
   display: inline-block;
   padding-bottom: 40px;
@@ -195,16 +201,9 @@ span.tools {
   height: 20px;
   color: #e6f1ff;
 }
-i.fa.fa-github {
-  color: white;
-}
 
-.link a {
+.link a i {
   color: #64ffda !important;
-}
-
-i.fa.fa-external-link {
-  color: #64ffda;
 }
 
 .link a {
