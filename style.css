@@ -4,9 +4,66 @@ body {
 }
 .icon {
   display: inline-block;
-  padding-left: 3%;
-  padding-top: 0;
-  font-size: 20px;
+}
+
+.navbar {
+  margin-inline-end: 40px;
+  float: right;
+  padding-top: 5px;
+}
+
+li.navbutton {
+  display: inline-block;
+  padding: 12px;
+}
+li.navbutton a {
+  color: #e6f1ff;
+  font-size: 18px;
+}
+button.resume:hover {
+  background-color: #28a745;
+  font-weight: 500;
+  color: white;
+}
+button.contactbutton:hover {
+  background-color: #28a745;
+  font-weight: 500;
+  color: white;
+}
+
+button.workbutton:hover {
+  background-color: #28a745;
+  font-weight: 500;
+  color: white;
+}
+
+button.articlebutton:hover {
+  background-color: #28a745;
+  font-weight: 500;
+  color: white;
+}
+
+button.getintouch:hover {
+  background-color: #28a745;
+  font-weight: 500;
+  color: white;
+}
+button.buttonaboutme:hover {
+  background-color: #068e25;
+  color: white;
+}
+li.navbutton a:hover {
+  color: #64ffda !important;
+}
+
+ul.navul {
+  margin: 0;
+}
+h1.iconhead {
+  margin: 0;
+  padding: 5px 27px;
+  font-weight: 600;
+  font-size: 35px;
 }
 .container {
   margin: 30px 80px 30px 130px;
@@ -17,9 +74,16 @@ a {
 }
 
 .sidebar {
+  margin-top: 85px;
   display: block;
   position: fixed;
 }
+.sidebar a i:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  color: #64ffda;
+}
+
 .row.col-md-12 {
   display: inline-block;
   padding-bottom: 40px;
@@ -29,11 +93,10 @@ a {
 }
 .mypic img {
   border-radius: 31px;
-  margin-top: 73px;
 }
-.mypic {
+/* .mypic {
   margin-inline-start: 50px;
-}
+} */
 .aboutinfo {
   width: 50%;
   padding-top: 40px;
@@ -98,9 +161,15 @@ h1.name {
   width: 100%;
 }
 .workdetails {
+  border-radius: 4px;
+  background-color: rgb(23, 42, 69);
+  position: relative;
   float: left;
   width: 40%;
+  padding: 10px 0;
   padding-left: 17px;
+  left: -40px;
+  margin-top: 15px;
 }
 p.count {
   color: #64ffda;
@@ -131,16 +200,9 @@ span.tools {
   height: 20px;
   color: #e6f1ff;
 }
-i.fa.fa-github {
-  color: white;
-}
 
-.link {
-  color: #e6f1ff;
-}
-
-i.fa.fa-external-link {
-  color: #e6f1ff;
+.link a i {
+  color: #64ffda !important;
 }
 
 .link a {
@@ -235,6 +297,7 @@ button.articlebutton {
   float: left;
   margin: 0px 18px;
   width: 28%;
+  border-radius: 4px;
 }
 
 section.article {
@@ -254,6 +317,14 @@ h2.articlehead {
 p.articledetails {
   padding: 0 15px;
   font-size: 12px;
+}
+.articlecardimg img {
+  border-radius: 4px;
+}
+.articlecard:hover {
+  position: relative;
+  transform: scale(1.1, 1.1);
+  transition: all 0.6s;
 }
 .getintouch {
   margin: 85px;
@@ -306,107 +377,3 @@ p.copyright {
   opacity: 50%;
   color: #e6f1ff;
 }
-nav {
-  margin-right: 10px;
-  /* padding: 10px 0; */
-}
-nav ul {
-  list-style: none;
-  text-align: right;
-  float: right;
-  margin-right: 40px;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #ccd6f6 !important;
-  text-transform: uppercase;
-  margin: 0 10px;
-}
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all 0.5s;
-}
-nav ul li a:hover {
-  color: #555;
-}
-
-nav.shift ul li a {
-  position: relative;
-  z-index: 1;
-}
-nav.shift ul li a:hover {
-  color: #91640f;
-}
-nav.shift ul li a:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 100%;
-  height: 1px;
-  content: ".";
-  color: transparent;
-  background: #f1c40f;
-  visibility: none;
-  opacity: 0;
-  z-index: -1;
-}
-nav.shift ul li a:hover:after {
-  opacity: 1;
-  visibility: visible;
-  height: 100%;
-}
-
-/* Keyframes */
-/* @-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: 1px;
-  }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: #333;
-  }
-}
-
-/* Keyframes */
-/* @-webkit-keyframes circle {
-  0% {
-    width: 1px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    height: 1px;
-    z-index: -1;
-    background: #eee;
-    border-radius: 100%;
-  }
-  100% {
-    background: #aaa;
-    height: 5000%;
-    width: 5000%;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 0;
-  }
-} */
